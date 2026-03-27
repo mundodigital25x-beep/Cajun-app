@@ -12,7 +12,7 @@ st.markdown("""
     .stButton>button { background-color: #23345C; color: white; width: 100%; border-radius: 10px; height: 3em; font-size: 18px; }
     .result-card { background-color: #ffffff; padding: 20px; border-radius: 15px; border-left: 5px solid #1D5336; }
     </style>
-    """, unsafe_allow_contents=True)
+    """, unsafe_allow_html=True)
 
 st.title("🏗️ Cajun Industries")
 st.subheader("Field Calculators")
